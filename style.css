@@ -1,0 +1,50 @@
+h1 {
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    color:pink;
+    
+   
+
+}
+h2 {
+    font-size: 25px;
+    color:pink;
+}
+h3 {
+    font-size:31px;
+    color:rgb(140, 127, 225);
+}
+
+
+img {
+    padding-top: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0 ;
+    padding:0;
+    overflow: hidden;
+    background-color:rgba(255, 105, 180, 0.215);
+}
+li{
+    float: left;}
+li a{
+    display: block;
+    padding: 8px;
+    height: 23px;
+    font-size: 23px;
+    color:rgba(93, 161, 229, 0.588);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: rgba(245, 200, 223, 0.411);
+}
+.active{
+    background-color:rgba(238, 142, 191, 0.237)
+}
+

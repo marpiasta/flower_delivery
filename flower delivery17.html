@@ -1,23 +1,74 @@
 <!DOCTYPE html>
 <html>
    <head>
+    <meta name="viewpoint" contenr = "width=device-width, initial-scale=1.0">
       <title> Доставка квітів </title>
     <link href="style.css" rel="stylesheet" type="text/css">
    </head>
    <body>
+      <div class="hero">
+        <nav>
+            <img src="flowerlogo2.png" class="logo">
+            <ul>
+              <li><a href= "#">Home</a></li>
+              <li><a href= "#">Features</a></li>
+              <li><a href= "#">About</a></li>
+              <li><a href= "#">Contacts</a></li>
+
+            </ul>
+            <img src="flowerlogo.png" class="user-pic" onclick="toggleMenu()">
+             <div class="sub-menu-wrap" id="subMenu">
+              <div class="sub-menu">
+               <div class="user-info">
+                 <img src="flowerlogo.png">
+                 <h2>Flower delivery</h2>
+
+              </div>
+              <hr>
+
+              <a href="#" class="sub-menu-link">
+                <img src="png.png">
+                <p>Location</p>
+                <span>></span>
+
+              </a>
+              <a href="#" class="sub-menu-link">
+                <img src="png.png">
+                <p>Help</p>
+                <span>></span>
+
+              </a>
+              </div>
+             </div>
+
+        </nav>
+      </div>
+     
+      <div class="slideshow.container">
+        <div class="mySlides fade">
+           <img src="flws1.jpeg" style="width: 100%" alt="" >
+           
+        </div>
+
+        <div class="mySlides fade">
       
-      <h1> Доставка квітів </h1>
-        <ul>
-        <li><a class="active"
-        href="homefl.html">Головна</a></li>
-        <li><a href="delivery.html">Доставка і оплата</a></li>
-        <li><a href="contscts.html">Контакти</a></li>
-        <li><a href="occasion.html">Привід</a></li>
-        <li><a href="type.html">Тип букета</a></li>
-        <li><a href="sales.html">Акції</a></li>
-     </ul>
-     <img src="https://cdn.mos.cms.futurecdn.net/JMq3tKLK2uwCSA8RZL2EA6-1200-80.jpg" alt="flower delivery" title="flower delivery" width="650" height="400" /><br/>
-</header>
+           <img src="flw2.jpeg" style="width: 100%;"  alt="">
+         
+        </div>
+
+        <div class="mySlides">
+           <img src="flws3.jpeg" style="width: 100%" alt="">
+           
+        </div>
+      <a class="prev" onclick="plusSlides(1)">&#10094</a>
+      <a class="next" onclick="plusSlides(1)">&#10095</a>
+    <br>
+
+
+</div>
+
+      </div>
+
 
 <div class="section-table">
 <h3><a href="newmain.html">Хіт продажів</h3>
@@ -46,8 +97,10 @@
         </div>
       
       <div class="sticky">2022 flowerdelivery</div>
-        
-</body>
+        </body>
+        <script src="js/script.js">
+
+        </script>
  </html>
  <!DOCTYPE html>
 <html>
